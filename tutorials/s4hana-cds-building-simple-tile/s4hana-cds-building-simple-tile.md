@@ -1,33 +1,31 @@
 ---
 title: Building simple tiles within Fiori Launchpad
 description: Build a tile within Fiori Launchpad based on an CDS Odata Service
+auto_validation: true
 primary_tag: products>sap-s-4hana
 tags: [ tutorial>intermediate, products>sap-s-4hana ]
 time: 20
 ---
 ## Prerequisites  
- - **Tutorials:** [Creating simple tiles within Fiori Launchpad](https://www.sap.com/developer/tutorials/s4hana-cds-launchpad-designer-fiori-role.html)
-
-## Next Steps
- - Select a tutorial from the [Tutorial Navigator](https://www.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](https://www.sap.com/developer/tutorial-navigator.tutorials.html)
+ - **Tutorials:** [Creating simple tiles within Fiori
 
 ## Details
 ### You will learn  
-  - How to create a tile within SAP Fiori Launchpad
+  - How to create a tile within SAP Fiori launchpad
 
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Start the Fiori Launchpad Designer)]
 
-The tile to build will be added to the group `Z_RDBC_BCG`
+The tile to build will be added to the group `Z_RDBC_BCG`.
 
 ![Basic view](CDSTiles1.png)
 
-To achieve that you need to log in to Fiori Launchpad Designer as shown in the [previous tutorial](https://www.sap.com/developer/tutorials/s4hana-cds-launchpad-designer-fiori-role.html) and extend the URL with: `sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html/`
+To achieve that, you need to log in to SAP Fiori Launchpad Designer as shown in the [previous tutorial](s4hana-cds-launchpad-designer-fiori-role) and extend the URL with: `sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html/`
 
 ![Basic view](CDSTilesGroupTitlestoAddAppendExtensionDesigner3.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 2: ](Create a new tile)]
@@ -58,7 +56,7 @@ After selecting the appropriated template, you will have the following screen th
 From here you will use the Airline Query you created in the previous tutorial (https://www.sap.com/developer/tutorials/s4hana-cds-creating-odata-service.html)
 
 
-
+[VALIDATE_1]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Access the airline query)]
@@ -83,7 +81,7 @@ To get the syntax you need for creating your tile you have to add  the name of t
 
 To get the number of the returned rows, simply add  `$count` to the end of the previous URL and execute.
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 4: ](Edit the configuration)]
@@ -116,7 +114,7 @@ Now you have a new tile configured (tile with the plane icon!)
 
 
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 5: ](Add tile to group)]
@@ -142,7 +140,7 @@ Now press the `F4-Help` as on the screenshot (1) and in the search field on the 
 
 
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 6: ](Verify tile creation)]
@@ -154,7 +152,7 @@ On the right side of the screen you will see the newly created tile with a Fligh
 ![Basic view](CDSFinalTile.png)
 
 
-
+[DONE]
 [ACCORDION-END]
 
 

@@ -1,6 +1,7 @@
 ---
 title: Creating Consumption views based on basic/interface views
 description: Create a Consumption CDS view  
+auto_validation: true
 primary_tag: products>sap-s-4hana
 tags: [  tutorial>beginner, products>sap-s-4hana ]
 time: 20
@@ -34,7 +35,7 @@ In the new window **DDL Source** (**Templates Select one of the available templa
 
 ![Create the consumption view](BuildConsumptionView3_0.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 2: ](Generate code for the view)]
@@ -51,7 +52,7 @@ In the generated code, we will replace `data source name` `(2)` with  `zxshI_Air
 
 ![Rename the consumption view](BuildConsumptionView4_1_Rename.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Add annotations)]
@@ -72,7 +73,7 @@ Insert a  new line after line 5 with the following text:
 
 Finally,  save the changes.
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 4: ](Insert all columns of the interface view)]
@@ -86,7 +87,7 @@ Save and activate the modifications.
 
 ![Activate and save the Consumption view ](BuildConsumptionView8_AtferSave_Activate.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 5: ](Resolve error)]
@@ -107,7 +108,7 @@ Save and activate the changes and then hover again as shown below.
 
 ![OData publishing](BuildingConsumptionView_HoverOnODatapublish.png)
 
-
+[VALIDATE_1]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 6: ](Check complete code)]
@@ -127,7 +128,7 @@ You can copy this content from here and paste it to the code editor of your ABAP
     }
 ```      
 
-
+[DONE]
 [ACCORDION-END]
 
 

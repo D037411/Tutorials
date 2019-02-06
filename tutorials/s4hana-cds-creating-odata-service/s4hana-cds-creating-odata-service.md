@@ -1,6 +1,7 @@
 ---
 title: Creating OData Services
 description: Creating OData Services(Core Data Services)
+auto_validation: true
 primary_tag: products>sap-s-4hana
 tags: [  tutorial>beginner, products>sap-s-4hana ]
 time: 20
@@ -29,7 +30,7 @@ Switch back to the tab **`ZXSHC_AIRLINEQUERY`** of the code editor. Mouse over t
 
 ![Command to execute the preview in ERP](CommandToExecuteInERP.png)
 
-
+[VALIDATE_1]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 2: ](Service registration OData activation and OData Exposure)]
@@ -42,7 +43,7 @@ The **Activate and Maintain Services** window will be displayed. This is where y
 
 ![Execute the application for service registration in ERP](ApplicationForServiceRegistrationAddService.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Add service)]
@@ -67,7 +68,7 @@ Press the icon **Get Services**, then select **Add Selected Services**. Then cli
 
 ![Click to get the service](ClickGetServices.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 4: ](Set package assignment)]
@@ -78,7 +79,7 @@ The pop-up window **Add Service** is opened with pre-filled information; therefo
 
 ![Creation of  service successful](InfoMessageSuccesssfullServiceCreation.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 5: ](Verify OData association)]
@@ -99,7 +100,7 @@ Your default browser will be launched.
 
 ![Launch the bowser](LauchBrowser.png)  
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 6: ](Log in)]
@@ -118,7 +119,7 @@ If you replace the URL extension `?sap-ds-debug=true` with `$metadata`  and pres
 
 ![Display the meta data](MetadataDisplay.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 7: ](Check complete code)]
@@ -135,7 +136,7 @@ If you replace the URL with `$count`  and click **Enter**, the number of entries
 
 ![Display of the number of queries](NumberOfEntries.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 

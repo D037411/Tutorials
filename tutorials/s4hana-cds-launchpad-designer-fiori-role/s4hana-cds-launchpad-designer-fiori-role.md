@@ -1,6 +1,7 @@
 ---
 title: Creating simple Fiori launchpad tiles based on an CDS OData Service
 description: Creating a tile within Fiori Launchpad based on an CDS OData Service
+auto_validation: true
 primary_tag: products>sap-s-4hana
 tags: [ tutorial>intermediate, products>sap-s-4hana ]
 ---
@@ -9,7 +10,7 @@ tags: [ tutorial>intermediate, products>sap-s-4hana ]
  - **Tutorials:** [Creating OData based on CDS Views. ](https://www.sap.com/developer/tutorials/s4hana-cds-creating-odata-service.html)
 
 ## Next Steps
- [Building simple tiles](https://www.sap.com/developer/tutorials/s4hana-cds-building-simple-tile.html)
+  - Select a tutorial from the [Tutorial Navigator](https://www.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](https://www.sap.com/developer/tutorial-navigator.tutorials.html)
 
 ## Details
 ### You will learn  
@@ -59,7 +60,7 @@ The Configuration scope can be accessed by appending `?scope=CONF` to the URL. I
 
 ![Launchpad6](LauchpadDesignerCONFscope.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 2: ](Assign roles)]
@@ -87,7 +88,7 @@ Press the F4 help
 
 ![Launchpad11](LauchpadDesignerRoleAssignt6.png)
 
-
+[VALIDATE_1]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Role Name window)]
@@ -112,7 +113,7 @@ You should have something like this
 
 ![Launchpad15](LauchpadDesignerRoleAssignt11.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 4: ](Add more roles)]
@@ -165,7 +166,7 @@ The following screen shows the role added.
 Save the changes you made and close the SAP Logon.
 
 
-
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 5: ](Make final checks)]
@@ -180,10 +181,9 @@ You will also see the group `Z_RDS_BCG`.
 
 ![Launchpad28](LauchpadDesignerRoleAssigntFinal.png)
 
-
+[DONE]
 [ACCORDION-END]
 
 
 ## Next Steps
-
-[Building simple tile](https://www.sap.com/developer/tutorials/s4hana-cds-building-simple-tile.html)
+ - Select a tutorial from the [Tutorial Navigator](https://www.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](https://www.sap.com/developer/tutorial-navigator.tutorials.html)
